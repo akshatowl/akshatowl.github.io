@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* img{
+  border-radius: 100px;
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+  width: 250px;
+} */
+.special-image {
+  /* border-radius: 100px; */
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+  width: 250px;
+}
+.skill-image{
+  height: 70px;
+  width: 70px;
+}
+.skill-image-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+
+  @media (max-width: 768px) {
+    justify-content: flex-start; /* Reduce spacing for smaller screens */
+  }
+
+  @media (max-width: 480px) {
+    justify-content: flex-start; /* Further reduce spacing for even smaller screens */
+  }
+}
+.image-with-overlay {
+  position: relative;
+  margin: 10px; /* Add spacing between images */
+}
+.image-container {
+  display: block;
+  margin: 0 auto;
+  align-self: center;
+}
+.skill-images{
+  display: block;
+}
+.project-images{
+  display: block;
+  height:300px;
+  width: 500px;
+  @media (max-width: 768px) {
+    justify-content: flex-start; /* Reduce spacing for smaller screens */
+  }
+
+  @media (max-width: 480px) {
+    justify-content: flex-start; /* Further reduce spacing for even smaller screens */
+  }
+}
+.text-container {
+  margin-bottom: 20px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-bar {
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center; 
+  color: white;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center; 
+  position: fixed;
+  margin-top: 30px;
+
+  color: white;
+}
+/* .nav-links{
+  list-style-type: none;
+  display:flex;
+  justify-content: space-between;
+  position:fixed;
+  text-align: center;
+} */
+.navbar-disp{
+  background: black;
+  /* border-radius: 10px; */
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center; 
+  color: white;
+  text-emphasis-color: white;
+}
+.Center {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-link {
+  color: blue; 
+}
+
+.hover-outline-link:hover{
+  background-color: #e1edf1;
+  border-radius: 5px;
+}
+.active{
+  background-color: black;
+  color: white;
+  /* border-radius: 20px; */
+  display: inline-block;
+}
+a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  display: flex;
+  text-decoration: none;
+  color:rgb(89, 103, 123)
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+h1{
+    /* font-family: 'Comfortaa', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+}
+h2{
+  /* font-family: 'Comfortaa', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+.image-overlay {
+  position: absolute;
+  top: 0;
+  /* left: 0; */
+  right: 5;
+  background: rgba(249, 249, 249, 0.806);
+  color: rgb(10, 0, 0);
+  padding: 5px 10px;
+  display: none;
+}
+
+.image-with-overlay:hover .image-overlay {
+  display: block;
+}
+.App{
+    text-align: center;
+}
+@font-face{
+    font-family: comfortaa;
+    src: url(../public/Comfortaa-VariableFont_wght.ttf)
+}
+  .comfortaa{
+    font-family: comfortaa;
+  }
+
+  @font-face{
+    font-family: ptSerif;
+    src: url(../public/PTSerif-Regular.ttf)
+  }
+  .ptSerif{
+    font-family: ptSerif;
+  }
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .p {
+      font-size: 12px;
+    }
+    .h1 {
+      font-size: 25px;
+    }
+    .h2 {
+      font-size: 18px;
+    }
+    .image-container{
+      scale: 60%;
+  }
+  .skill-image{
+    scale: 60%
+  }
+  .skill-image-container{
+    display: flex;
+    justify-content: 5px; 
+  }
+}
+  
+  
+  @media (max-width: 480px) {
+    .p {
+      font-size: 8px;
+    }
+    .image-container{
+      scale: 40%;
+    }
+    .skill-image{
+      scale: 40%
+    }
+  }
+
+  .projects-container {
+    max-width: 100%; 
+    width: 100%;
+   
+  
+    .project {
+      width: 100%;
+      max-width: 600px; 
+      margin: 20px; 
+  
+      @media (max-width: 768px) {
+        margin: 10px; 
+      }
+  
+      @media (max-width: 480px) {
+        margin: 5px; 
+      }
+    }
+  
+    .image-container {
+      max-width: 100%; 
+  
+      .project-image {
+        height:300px;
+        width: 500px;
+        max-width: 100%; 
+        height: auto; 
+      }
+    }
+  }
