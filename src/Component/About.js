@@ -16,14 +16,15 @@ function About() {
        on autonomous systems throughout my undergraduate degree. My primary area of work has been towards <br/>Control Systems and heuristic path-planning
        of Unmanned Aerial Vehicles and Unmanned Ground Vehicles.<br/></p>
     <div>
+      <p>
       <ul>
-        <li>Software Engineering Intern, Analog Devices, India <i>Jan 2023 - May 2023</i></li>
-        <li>Undergraduate Research Intern (MITACS), MARS Lab, Ontario Tech University <i>May 2022 - Jul 2022</i></li>
-        <li>Head of Automation, Project MANAS <i>April 2021 - Jul 2022</i></li>
-        <li>Embedded Software Intern, AEREO, India <i>Oct 2022 - Dec 2022</i></li>
-
-        <li>Team Member, MBZIRC <i>Oct 2022 - Dec 2022</i></li>
+        <li>Software Engineering Intern, <a href="https://www.analog.com/en/index.html" style={{ fontSize: '20px', display: 'inline', textDecoration: 'underline' }} target="blank">Analog Devices</a>, India <i>Jan 2023 - May 2023</i></li>
+        <li>Undergraduate Research Intern <a href="https://www.mitacs.ca/en" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">(MITACS)</a>, MARS Lab, Ontario Tech University <i>May 2022 - Jul 2022</i></li>
+        <li>Head of Automation, <a href="https://www.projectmanas.in/" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">Project MANAS</a> <i>April 2021 - Jul 2022</i></li>
+        <li>Embedded Software Intern, <a href="https://www.mitacs.ca/en" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">AEREO</a> , India <i>Oct 2022 - Dec 2022</i></li>
+        <li>Team Member,  <a href="https://aereo.io/" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">MBZIRC</a>  <i>Oct 2022 - Dec 2022</i></li>
       </ul>
+      </p>
     </div>
     </p>
     
@@ -78,13 +79,20 @@ function About() {
       Frameworks and developing on top of an existing codebase. I got familiar with the Ardupilot flight-stack and worked on <br/>
       creating a Software-In-Loop testbench that was later integrated to a Ground Control Software using TCP and UDP. <br/>
       </p>
+      <h2>My time working in Project MANAS</h2>
+      <p>During my undergraduate degree I was part of Project MANAS, the robotics student project of MIT Manipal. During <br/>
+      2021-2022 I led the automation front of the team for AUVSI SUAS 2022 and a driverless car for the Mahindra Rize Prize<br/>
+      Challenge. I got to work hands on with a lot of sensor modules and communication protocols like I2C, UART, SPI, CAN   <br/>
+      for autonomous robots. I worked quite a bit on the lateral controller of a driverless car and helped implement a <br/>
+      modified Stanley Controller with feedforward for lane centering.
+      </p>
+      <h2>My time working for MBZIRC</h2>
+      <p>I was part of Team Luna, representing India among the top 13 teams internationally as semi-finalists for the Mohamed <br/>
+       Bin Zayed International Robotics Challenge (MBZIRC). I worked on Forward and Inverse Kinematics of 6-axis <br/>
+      robotic arm on top of a surface vehicle as part of the competition prompt. <br/>
+      
+      </p>
 
-    
-   
-    
-   
-
-    
     </div>
   </div>
       );

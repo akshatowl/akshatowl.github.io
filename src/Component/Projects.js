@@ -16,7 +16,9 @@ function Projects() {
       <p>I always wanted to have my own website to have the ability to showcase<br/>
       the things I was doing. I decided to take this up as a personal project.<br/>
       With multiple failed compilations and a lot of debugging sessions, I finally <br/>
-      came up with something I feel good about. I'm open to any suggestions! <br/>
+      came up with something I feel good about. I'm currently working on making this<br/>
+      website more responsive for mobile devices as well. I'm open to any suggestions! <br/>
+
       
       </p>
     </div>
@@ -92,16 +94,13 @@ function Projects() {
     <div className="image-container">
         <img className="project-image" src="/Images/shelfy.jpg" alt="" />
       </div>
-      <p>My team took part in the Swadeshi Microprocessor Challenge, hosted by the Govt. of India,.<br/>
+      <p>My team took part in the Swadeshi Microprocessor Challenge, hosted by the Govt. of India,<br/>
       Ministry of Electronics and Information Technology. We were the national semi-finalists and <br/>
       amoung the top 100 teams out of 3000+ participants. The team was given an indiginous FPGA board<br/>
       to develop a product. We chose to build a smart automated storage and retrieval system for <br/>
       warehouse automation. 
       </p>
     </div>
-    
-    
-    
     
 </div>
     </div>
