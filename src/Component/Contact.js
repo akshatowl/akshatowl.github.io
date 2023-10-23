@@ -1,24 +1,20 @@
-import React, {Component, Fragment} from 'react';
-// import { Link, NavLink } from 'react-router-dom';
-import { BrowserRouter as Router, Route, Routes, Link, Outlet } from 'react-router-dom';
-import Navbar from './Navbar';
+import React from 'react';
+import { Document, Page, Text } from 'react-pdf';
 
-// import About from "./Component/About";
-// import Contact from "./Component/Contact";
-// import Projects from "./Component/Projects";
+function Contact() {
+  const pdfFile = '/Akshat_Pandey.pdf'; // Replace with the actual path to your PDF file
 
-
-export default function Contact() {
-    return (
-        <div className="Center">
-        <div>
-        <h1>Contact</h1>
-        <p></p>
-        </div>
-        </div>
-        
-      );
+  return (
+    <div>
+    <h1>Resume</h1>
+    <iframe
+      title="Resume"
+      src="/Akshat_Pandey.pdf" // Update the path to your PDF file
+      width="100%"
+      height="1200px"
+    />
+  </div>
+  );
 }
 
-
-
+export default Contact;
