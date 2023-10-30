@@ -20,9 +20,10 @@ function About() {
       <ul>
         <li>Software Engineering Intern, <a href="https://www.analog.com/en/index.html" style={{ fontSize: '20px', display: 'inline', textDecoration: 'underline' }} target="blank">Analog Devices</a>, India <i>Jan 2023 - May 2023</i></li>
         <li>Undergraduate Research Intern <a href="https://www.mitacs.ca/en" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">(MITACS)</a>, MARS Lab, Ontario Tech University <i>May 2022 - Jul 2022</i></li>
+        <li>Team Member,  <a href="https://www.mbzirc.com/" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">MBZIRC</a>  <i>Oct 2022 - Dec 2022</i></li>
         <li>Head of Automation, <a href="https://www.projectmanas.in/" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">Project MANAS</a> <i>April 2021 - Jul 2022</i></li>
-        <li>Embedded Software Intern, <a href="https://www.mitacs.ca/en" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">AEREO</a> , India <i>Oct 2022 - Dec 2022</i></li>
-        <li>Team Member,  <a href="https://aereo.io/" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">MBZIRC</a>  <i>Oct 2022 - Dec 2022</i></li>
+        <li>Embedded Software Intern, <a href="https://aereo.io/" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">AEREO</a> , India <i>Aug 2021 - Nov 2022</i></li>
+        
       </ul>
       </p>
     </div>
@@ -49,9 +50,10 @@ function About() {
 
     <h2>My time as an Undergraduate Researcher</h2>
     <p>I was an undergraduate research intern at Ontario Tech University under the guidance of Dr. Scott Nokleby<br/>
-       This experience was a research fellowship award to me by MITACS. The prompt of the project was to work on<br/>
-       an autonomous wheelchair for children with disabilities like cerebral palsy. This was an experience that taught<br/>
-       me a lot about the importance of software architecture for autonomous robots and how to conduct research. <br/>
+      in the <a href="http://mars.engineering.uoit.ca/" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">Mechatronic and Robotic Systems Laboratory (MARS Lab)</a>
+       This experience was a research fellowship<br/> award to me by MITACS. The prompt of the project was to work on
+       an autonomous wheelchair for children<br/> with disabilities like cerebral palsy. This was an experience that taught
+       me a lot about the importance of <br/>software architecture for autonomous robots and how to conduct research. <br/>
       </p>
       <p>
         I worked on the D435i depth-camera by Intel for localization and to detect obstacles. One of the requirement<br/>

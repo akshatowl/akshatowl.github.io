@@ -3,7 +3,6 @@ import { BrowserRouter, Router, Route, Routes, Link, Outlet } from 'react-router
 import About from "./About";
 import Contact from "./Contact";
 import Projects from "./Projects";
-import extras from "./extras";
 import Navbar from './Navbar';
 
 export default function Home() {
