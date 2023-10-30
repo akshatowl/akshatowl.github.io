@@ -2,14 +2,14 @@ import React from 'react';
 import { Document, Page, Text } from 'react-pdf';
 
 function Contact() {
-  const pdfFile = '/Akshat_Pandey.pdf'; // Replace with the actual path to your PDF file
+  const pdfFile = '/Akshat_Pandey.pdf'; 
 
   return (
     <div>
     <h1>Resume</h1>
     <iframe
       title="Resume"
-      src="/Akshat_Pandey.pdf" // Update the path to your PDF file
+      src="/Akshat_Pandey.pdf" 
       width="100%"
       height="1200px"
     />

@@ -43,7 +43,7 @@ function About() {
       <p>ADI planned to port their current sensor into the Robot Operating System-2 environment, for which<br/>
        they needed to check for vulnerabilities. I found this to be a very good way to dip my feet into ROS-2.<br/>
        I wrote a script in C++ using OpenCV to transfer messages from one ROS-2 system instance to another, the <br/>
-       existing system faced a lot of latency while receiving images and I helped them improve it but reducing the<br/> 
+       existing system faced a lot of latency while receiving images and I helped improve it by reducing the<br/> 
        latency to about 67%. Working on something that was useful to the company felt empowering and motivating to me.
       </p>
 

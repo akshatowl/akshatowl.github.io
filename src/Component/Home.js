@@ -170,6 +170,7 @@ export default function Home() {
       <div className="Center">
         <p>Microprocessors / Hardware boards I've worked with</p>
       </div>
+    <div className="Center">
       <div className="skill-image-container">
       <div className="image-with-overlay">
         <img className="skill-image" src="/Images/arduino.png" alt=""/>
@@ -185,10 +186,10 @@ export default function Home() {
         <img className="skill-image" src="/Images/nvidia.png" alt=""/>
         <div className="image-overlay">Nvidia Xavier/Jetson</div>
         </div>
-        
+       
         <br/>
         <br/>
-
+        </div>
       </div>
       </div>
     </div>
