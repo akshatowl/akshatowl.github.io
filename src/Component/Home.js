@@ -76,6 +76,11 @@ export default function Home() {
         <img className="skill-image" src="/Images/java.png" alt="" />
         <div className="image-overlay">Java</div>
         </div>
+        {/* Matlab */}
+        <div className="image-with-overlay">
+        <img className="skill-image" src="/Images/matlab.png" alt="" />
+        <div className="image-overlay">MATLAB</div>
+        </div>
        
       </div>
       <hr/>
@@ -162,6 +167,11 @@ export default function Home() {
         <div className="image-with-overlay">
         <img className="skill-image" src="/Images/pytorch.png" alt=""/>
         <div className="image-overlay">Pytorch</div>
+        </div>
+        {/* Moveit */}
+        <div className="image-with-overlay">
+        <img className="skill-image" src="/Images/moveit.png" alt="" style={{ width:250}}/>
+        <div className="image-overlay">Moveit!</div>
         </div>
       </div>
       <hr/>
