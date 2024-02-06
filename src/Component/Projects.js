@@ -25,14 +25,21 @@ function Projects() {
     <div>
     <h2>Chatbot with embeddings: Ongoing</h2>
       <p>I'm currently working on making a chatbot using embeddings and vector search<br/>
-      for making ChatGPT effective for specialized research topics.
+      for making ChatGPT effective for specialized research topics. The user interface<br/>
+      and backend logic of the project is effectively working. I'm currently looking into<br/>
+      the integration of embeddings to the ChatGPT API.<br/>
+      <a href="https://github.com/akshatowl/MLDL-ChatBot" style={{ fontSize: '20px', display: 'inline', textDecoration: 'underline' }} target="blank">See it here!</a>
       </p>
     </div>
+    
+    <hr/>
     <div>
-    <h2>Kalman Filters for Reinforcement Learning: Ongoing</h2>
+    <h2>Optimized Reinforcement Learning methods for Graph Neural Architecture Search</h2>
       
-      <p>Working towards using Kalman Filters to optimize Bellman updates for Reinforcement<br/>
-      learning algorithms to optimize Neural Architecture Search.
+      <p>I worked towards implementing Proximal Policy Optimization and Trust Region Policy<br/>
+       Optimization for neural architecture search of graph neural networks. <br/>
+       <a href="https://www.youtube.com/watch?v=CQ0x2UGOluc" style={{ fontSize: '20px', display: 'inline', textDecoration: 'underline' }} target="blank">See it here!</a>
+
       </p>
     </div>
     <hr/>
@@ -45,7 +52,7 @@ function Projects() {
       autonomous hexacopter based on the PX4 flight stack and is capable of autonomous waypoint<br/> 
       navigation and object detection through a camera module. Seraphim maintains a thrust to <br/>
       weight ratio of 2:1 while take-off. Seraphim can also carry a payload of upto 7 kg.<br/><br/>
-      <a href="https://www.youtube.com/watch?v=CQ0x2UGOluc" style={{ fontSize: '20px', display: 'inline', textDecoration: 'underline' }} target="blank">See it here!</a>
+      <a href="https://github.com/akshatowl/GraphNAS" style={{ fontSize: '20px', display: 'inline', textDecoration: 'underline' }} target="blank">See it here!</a>
       </p>
     </div>
     <hr/>

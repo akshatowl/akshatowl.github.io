@@ -13,11 +13,12 @@ function About() {
     <h1>Experience</h1>
     <p>
     <p> I've researched and worked with robots a lot, I managed to gain some useful skills while trying to work<br/>
-       on autonomous systems throughout my undergraduate degree. My primary area of work has been towards <br/>Control Systems and heuristic path-planning
+       on autonomous systems throughout my undergraduate degree. My primary area of work has been towards <br/>control systems and heuristic path-planning
        of Unmanned Aerial Vehicles and Unmanned Ground Vehicles.<br/></p>
     <div>
       <p>
       <ul>
+      <li>Graduate Researcher, <a href="https://autonomy.engr.tamu.edu/" style={{ fontSize: '20px', display: 'inline', textDecoration: 'underline' }} target="blank">Autonomous Systems Laboratory</a>, Texas A&M University <i>Nov 2023 - Jan 2023</i></li>
         <li>Software Engineering Intern, <a href="https://www.analog.com/en/index.html" style={{ fontSize: '20px', display: 'inline', textDecoration: 'underline' }} target="blank">Analog Devices</a>, India <i>Jan 2023 - May 2023</i></li>
         <li>Undergraduate Research Intern <a href="https://www.mitacs.ca/en" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">(MITACS)</a>, MARS Lab, Ontario Tech University <i>May 2022 - Jul 2022</i></li>
         <li>Team Member,  <a href="https://www.mbzirc.com/" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">MBZIRC</a>  <i>Oct 2022 - Dec 2022</i></li>
@@ -30,6 +31,14 @@ function About() {
     </p>
     
     <h1>My Takeaways</h1>
+        <h2>My time as a Graduate Researcher</h2>
+        <p>During my fall semester in 2023, I was a actively working on a research project as a graduate student.<br/>
+        I was part of the Autonomous Systems Lab under Dr. Sivakumar Rathinam and was working on path planning of<br/>
+        autonomous non-holonomic agents in the presence of dynamic obstacles. The entire problem was formulated<br/>
+        as a Mixed Integer Linear Programming (MILP) problem. I also made an intuitive interface for the solution<br/>
+        using matplotlib animations in Python. This experience tested some of the mathematics concepts I never thought <br/>
+        I would get to apply. It was challenging at first but being able to correlate some solving methods and geometrical<br/>
+        solutions into the path-planning domain definitely helped me grow as a roboticist.</p>
        <h2>My time at Analog Devices</h2>
       <p>Before arriving for my Master's, I was a Software Engineering Intern at Analog Devices, India or ADI.<br/> 
        ADI was working on a Time-of-Flight sensor and the team I was interning with was selected to present  <br/>
@@ -94,8 +103,14 @@ function About() {
       robotic arm on top of a surface vehicle as part of the competition prompt. <br/>
       
       </p>
-
+      <hr/>
+      <h1>What's next</h1>
+      <p>I'm going to be working at Applied Material as a Software Engineering Intern this summer! I'm really excited for this<br/>
+      opportunity since my domain of work is going to be along control systems design, which was my entry point to the field<br/>
+      of robotics.<br/>
+       </p>
     </div>
+    
   </div>
       );
 }

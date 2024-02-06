@@ -18,7 +18,7 @@ export default function Home() {
         I'm also working on implementing vector search for Large Language<br/> Models
          to optimize them for domain specific research.</p>
         <p>In the past 4 years of my undergraduate studies I was extensively involved in robotics, particularly<br/>
-         autonomous path-planning and optimal control of Unmanned Aerial and Ground Vehicles </p>
+         autonomous path-planning and optimal control of Unmanned Aerial and Ground Vehicles. </p>
       <div className="image-container">
         <img className="special-image" src="/Images/photograph.jpg" alt="" />
       </div>
@@ -103,11 +103,7 @@ export default function Home() {
         <img className="skill-image" src="/Images/javascript.png" alt="" />
         <div className="image-overlay">Javascript</div>
         </div>
-        {/* Firebase */}
-        <div className="image-with-overlay">
-        <img className="skill-image" src="/Images/firebase.png" alt="" />
-        <div className="image-overlay">Firebase</div>
-        </div>
+        
         {/* React */}
         <div className="image-with-overlay">
         <img className="skill-image" src="/Images/react.png" alt="" />
@@ -118,6 +114,18 @@ export default function Home() {
         <img className="skill-image" src="/Images/mysql.png" alt="" />  
         <div className="image-overlay">MySQL</div>
         </div>
+        {/* Firebase */}
+        <div className="image-with-overlay">
+        <img className="skill-image" src="/Images/firebase.png" alt="" />
+        <div className="image-overlay">Firebase</div>
+        </div>
+        {/* MongoDB */}
+        <div className="image-with-overlay">
+        <img className="skill-image" src="/Images/mongodb.png" alt="" />
+        <div className="image-overlay">MongoDB</div>
+        </div>
+        
+        
          
          
       </div>
