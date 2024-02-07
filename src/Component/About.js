@@ -18,7 +18,7 @@ function About() {
     <div>
       <p>
       <ul>
-      <li>Graduate Researcher, <a href="https://autonomy.engr.tamu.edu/" style={{ fontSize: '20px', display: 'inline', textDecoration: 'underline' }} target="blank">Autonomous Systems Laboratory</a>, Texas A&M University <i>Nov 2023 - Jan 2023</i></li>
+      <li>Graduate Researcher, <a href="https://autonomy.engr.tamu.edu/" style={{ fontSize: '20px', display: 'inline', textDecoration: 'underline' }} target="blank">Autonomous Systems Laboratory</a>, Texas A&M University <i>Nov 2023 - Jan 2024</i></li>
         <li>Software Engineering Intern, <a href="https://www.analog.com/en/index.html" style={{ fontSize: '20px', display: 'inline', textDecoration: 'underline' }} target="blank">Analog Devices</a>, India <i>Jan 2023 - May 2023</i></li>
         <li>Undergraduate Research Intern <a href="https://www.mitacs.ca/en" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">(MITACS)</a>, MARS Lab, Ontario Tech University <i>May 2022 - Jul 2022</i></li>
         <li>Team Member,  <a href="https://www.mbzirc.com/" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">MBZIRC</a>  <i>Oct 2022 - Dec 2022</i></li>
