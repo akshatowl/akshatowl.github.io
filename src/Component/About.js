@@ -47,14 +47,17 @@ function About() {
         I worked on making a simulation for my team using Robot Operating System and Gazebo Simulator.<br/>
         The simulation was of a 4-wheel skid-steer drive that streamed sensor data in a C++ script using<br/>
         ROStopics. I got to learn about modelling the physics of a physically realizable system while making this<br/>
-        simulation. The package that I created was added as a meta-package to the main codebase. 
+        simulation. The package that I created was added as a meta-package to the main project's codebase.<br/>
+        I was reminded of my work at <a href="https://rosconindia.in/" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">ROSCON India 2023</a>. Analog Devices demonstrated my simulation alongside their<br/>
+        product. As a student who was always looking at the amazing projects that were displayed at these events, having<br/>
+        my work being displayed at one of the biggest meetup of ROS enjoyers was truly a wonderful feeling for me. 
       </p>
 
-      <p>ADI planned to port their current sensor into the Robot Operating System-2 environment, for which<br/>
+      <p>ADI also planned to port their current sensor into the Robot Operating System-2 environment, for which<br/>
        they needed to check for vulnerabilities. I found this to be a very good way to dip my feet into ROS-2.<br/>
        I wrote a script in C++ using OpenCV to transfer messages from one ROS-2 system instance to another, the <br/>
        existing system faced a lot of latency while receiving images and I helped improve it by reducing the<br/> 
-       latency to about 67%. Working on something that was useful to the company felt empowering and motivating to me.
+       latency by 67%. Working on something that was useful to the company felt empowering and motivating to me.
       </p>
 
     <h2>My time as an Undergraduate Researcher</h2>
@@ -92,7 +95,7 @@ function About() {
       </p>
       <h2>My time working in Project MANAS</h2>
       <p>During my undergraduate degree I was part of Project MANAS, the robotics student project of MIT Manipal. During <br/>
-      2021-2022 I led the automation front of the team for AUVSI SUAS 2022 and a driverless car for the Mahindra Rize Prize<br/>
+      2021-2022 I led the automation front of the team for <a href="https://suas-competition.org" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">AUVSI SUAS</a> 2022 and a driverless car for the Mahindra Rize Prize<br/>
       Challenge. I got to work hands on with a lot of sensor modules and communication protocols like I2C, UART, SPI, CAN   <br/>
       for autonomous robots. I worked quite a bit on the lateral controller of a driverless car and helped implement a <br/>
       modified Stanley Controller with feedforward for lane centering.
@@ -105,9 +108,9 @@ function About() {
       </p>
       <hr/>
       <h1>What's next</h1>
-      <p>I'm going to be working at Applied Material as a Software Engineering Intern this summer! I'm really excited for this<br/>
+      <p>I'm going to be working at <a href="https://www.appliedmaterials.com/" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">Applied Materials</a> as a Software Engineering Intern this summer! I'm really excited for this<br/>
       opportunity since my domain of work is going to be along control systems design, which was my entry point to the field<br/>
-      of robotics.<br/>
+      of robotics. This is something I'm really looking forward to.<br/>
        </p>
     </div>
     
