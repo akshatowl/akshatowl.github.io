@@ -32,19 +32,19 @@ function About() {
     
     <h1>My Takeaways</h1>
         <h2>My time as a Graduate Researcher</h2>
-        <p>During my fall semester in 2023, I was a actively working on a research project as a graduate student.<br/>
-        I was part of the Autonomous Systems Lab under Dr. Sivakumar Rathinam and was working on path planning of<br/>
-        autonomous non-holonomic agents in the presence of dynamic obstacles. The entire problem was formulated<br/>
-        as a Mixed Integer Linear Programming (MILP) problem. I also made an intuitive interface for the solution<br/>
-        using matplotlib animations in Python. This experience tested some of the mathematics concepts I never thought <br/>
-        I would get to apply. It was challenging at first but being able to correlate some solving methods and geometrical<br/>
-        solutions into the path-planning domain definitely helped me grow as a roboticist.</p>
+        <p>During my fall semester in 2023, I was actively working on a research project as a graduate student.<br/>
+        I was part of the Autonomous Systems Lab under Dr. Sivakumar Rathinam and was working on heuristic path <br/>
+        planning of autonomous non-holonomic agents in the presence of dynamic obstacles. The entire problem was <br/>
+        formulated as a Mixed Integer Linear Programming (MILP) problem. I also made an intuitive interface for the <br/>
+        solution using matplotlib animations in Python. This experience tested some of the mathematical concepts I never<br/> 
+        thought I would get to apply. It was challenging at first but being able to correlate some solving methods and <br/>
+        geometrical solutions into the path-planning domain definitely helped me grow as a roboticist.</p>
        <h2>My time at Analog Devices</h2>
       <p>Before arriving for my Master's, I was a Software Engineering Intern at Analog Devices, India or ADI.<br/> 
        ADI was working on a Time-of-Flight sensor and the team I was interning with was selected to present  <br/>
        their idea at the global ADI GTC that happened in March 2023.</p>
       <p>
-        I worked on making a simulation for my team using Robot Operating System and Gazebo Simulator.<br/>
+        I worked on making a simulation for my team using ROS Noetic and the Gazebo Simulator.<br/>
         The simulation was of a 4-wheel skid-steer drive that streamed sensor data in a C++ script using<br/>
         ROStopics. I got to learn about modelling the physics of a physically realizable system while making this<br/>
         simulation. The package that I created was added as a meta-package to the main project's codebase.<br/>
@@ -53,7 +53,7 @@ function About() {
         my work being displayed at one of the biggest meetup of ROS enjoyers was truly a wonderful feeling for me. 
       </p>
 
-      <p>ADI also planned to port their current sensor into the Robot Operating System-2 environment, for which<br/>
+      <p>ADI also planned to port the software stack of the sensor into the Robot Operating System-2 environment, for which<br/>
        they needed to check for vulnerabilities. I found this to be a very good way to dip my feet into ROS-2.<br/>
        I wrote a script in C++ using OpenCV to transfer messages from one ROS-2 system instance to another, the <br/>
        existing system faced a lot of latency while receiving images and I helped improve it by reducing the<br/> 
@@ -63,14 +63,14 @@ function About() {
     <h2>My time as an Undergraduate Researcher</h2>
     <p>I was an undergraduate research intern at Ontario Tech University under the guidance of Dr. Scott Nokleby<br/>
       in the <a href="http://mars.engineering.uoit.ca/" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">Mechatronic and Robotic Systems Laboratory (MARS Lab)</a>
-       This experience was a research fellowship<br/> award to me by MITACS. The prompt of the project was to work on
+       This experience was a research fellowship<br/> awarded to me by MITACS. The prompt of the project was to work on
        an autonomous wheelchair for children<br/> with disabilities like cerebral palsy. This was an experience that taught
        me a lot about the importance of <br/>software architecture for autonomous robots and how to conduct research. <br/>
       </p>
       <p>
         I worked on the D435i depth-camera by Intel for localization and to detect obstacles. One of the requirement<br/>
         was that slopes lower than a 15 degree incline should be traversable and not be treated like an obstalce. To<br/>
-        solve this I first ventured into computer vision, I developed a methodology and implemented a python script <br/>calculated the slope of
+        solve this I first ventured into computer vision, I developed a methodology and implemented an algorithm to <br/>calculate the slope of
         obstalces in front of the camera. Although, like many things I didn't get an accuracy of <br/>slope estimation that
         would let me call the task complete. So, after researching I narrowed down the likely cause<br/> to noise from the 
         camera and implemented a moving-average filter to help improve the accuracy to 98%.
@@ -79,7 +79,7 @@ function About() {
         The main part of the project was designing the software architecture and implementation to make autonomous <br/>
         navigation successful. We decided to implement an algorithm called RRT* (Optimized Rapidly Exploring Random Trees)<br/>
         to perform navigation within the map. To avoid collision from unknown obstacles that aren't in the map but can exist<br/>
-        (Eg. Trolleys or Humans walking around), we implemented a local planner using a Proportional-Derivative controller<br/>
+        (Eg. Trolleys or Humans walking around), we implemented a local planner using a Proportional-Derivative controller,<br/>
         modelling the error function in such a way that it produces a controller effort that is inversely-porportional to<br/>
         the distance from the detected obstacle. 
       </p>
