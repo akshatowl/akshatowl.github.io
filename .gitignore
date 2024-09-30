@@ -1,0 +1,5 @@
+public/Image/*
+node_modules/
+build/
+*.log
+.env
