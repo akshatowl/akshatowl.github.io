@@ -5,7 +5,7 @@
   display: block;
   margin: 0 auto;
   height: 300px;
-  width: 250px;
+  width: 400px;
 }
 .icon-image {
   display: block;
@@ -21,11 +21,11 @@
   flex-wrap: wrap;
   justify-content: space-evenly; 
 
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     justify-content: flex-start; 
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 500px) {
     justify-content: flex-start; 
   }
 }

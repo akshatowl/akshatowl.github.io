@@ -19,7 +19,6 @@ function Projects() {
       came up with something I feel good about. I'm currently working on making this<br/>
       website more responsive for mobile devices as well. I'm open to any suggestions! <br/>
 
-      
       </p>
     </div>
     <div>

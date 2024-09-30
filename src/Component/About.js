@@ -18,6 +18,7 @@ function About() {
     <div>
       <p>
       <ul>
+      <li>Software Engineering Intern, <a href="https://www.appliedmaterials.com/us/en.html" style={{ fontSize: '20px', display: 'inline', textDecoration: 'underline' }} target="blank">Applied Materials</a>, Sunnyvale, California <i>May 2024 - Aug 2024</i></li>
       <li>Graduate Researcher, <a href="https://autonomy.engr.tamu.edu/" style={{ fontSize: '20px', display: 'inline', textDecoration: 'underline' }} target="blank">Autonomous Systems Laboratory</a>, Texas A&M University <i>Nov 2023 - Jan 2024</i></li>
         <li>Software Engineering Intern, <a href="https://www.analog.com/en/index.html" style={{ fontSize: '20px', display: 'inline', textDecoration: 'underline' }} target="blank">Analog Devices</a>, India <i>Jan 2023 - May 2023</i></li>
         <li>Undergraduate Research Intern <a href="https://www.mitacs.ca/en" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">(MITACS)</a>, MARS Lab, Ontario Tech University <i>May 2022 - Jul 2022</i></li>
@@ -31,6 +32,17 @@ function About() {
     </p>
     
     <h1>My Takeaways</h1>
+        <h2>My time at Applied Materials</h2>
+        <p>In summer 2024, my time was well spent working as a Software Engineering Intern at Applied Materials.<br/>
+        I worked in the Metal Deposition Products team and got to actively contribute to an Endura PVD chamber <br/>
+        which is a type of setup that is actively used in the semiconductor manufacturing process. I implemented<br/>
+        the real-time control flow of multi-setpoint generator using C++. This was my first time actively working<br/>
+        with compiled binaries and build systems for a functional tool. I feel like a learnt a great deal here, <br/>
+        especially how to write production-level code suited for industrial applications. Being well versed in ROS<br/>
+        also helped me better understand the architecture of the pipeline used by Applied. This helped me a lot with<br/>
+        QA testing my code and knowing how to debug errors effectively. This experience also helped me improve as a <br/>
+        programmer and because of this I'm really looking forward to the next industrial venture that I get myself into!<br/>
+        Safe to say I also enjoyed exploring California thoroughly!</p>
         <h2>My time as a Graduate Researcher</h2>
         <p>During my fall semester in 2023, I was actively working on a research project as a graduate student.<br/>
         I was part of the Autonomous Systems Lab under Dr. Sivakumar Rathinam and was working on heuristic path <br/>
@@ -108,9 +120,9 @@ function About() {
       </p>
       <hr/>
       <h1>What's next</h1>
-      <p>I'm going to be working at <a href="https://www.appliedmaterials.com/" style={{ fontSize: '20px',display: 'inline', textDecoration: 'underline' }} target="blank">Applied Materials</a> as a Software Engineering Intern this summer! I'm really excited for this<br/>
-      opportunity since my domain of work is going to be along control systems design, which was my entry point to the field<br/>
-      of robotics. This is something I'm really looking forward to.<br/>
+      <p>Now that I have 1 year of coursework left, I plan to dive deeper into robotics. My recent internship and coursework<br/>
+      have opened a room for thinking and I plan to take full advantage of this. I want to solve utilize all the technical <br/>
+      growth from my Master's and solve some interesting problems. I'll keep posting some things that I'm working on here!<br/>
        </p>
     </div>
     

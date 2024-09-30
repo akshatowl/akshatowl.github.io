@@ -12,7 +12,7 @@ export default function Home() {
         <div className="top-bar">
         </div>
       <h1>Hi! I'm Akshat. Thanks for dropping by!</h1>
-      <p> I'm currently a first year Master's student at Texas A&M University pursuing Computer Engineering.<br/>
+      <p> I'm a second year Master's student at Texas A&M University pursuing Computer Engineering.<br/>
          During my time as a Master's student till now I've gotten the opportunity to expand my knowledge <br/>horizon 
         with experimentation and personal research. I'm currently using Deep Reinforcement Learning <br/> for Neural Architecture Search.
         I'm also working on implementing vector search for Large Language<br/> Models
@@ -20,7 +20,7 @@ export default function Home() {
         <p>In the past 4 years of my undergraduate studies I was extensively involved in robotics, particularly<br/>
          autonomous path-planning and optimal control of Unmanned Aerial and Ground Vehicles. </p>
       <div className="image-container">
-        <img className="special-image" src="/Images/photograph.jpg" alt="" />
+        <img className="special-image" src="/Images/image.jpg" alt="" />
       </div>
       <div className="Center">
           <p>I'm a robotics and software enthusiast. Feel free to reach out! </p>
