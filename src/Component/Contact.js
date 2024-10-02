@@ -9,7 +9,7 @@ function Contact() {
     <h1>Resume</h1>
     <iframe
       title="Resume"
-      src="/Resume.pdf" 
+      src="/Resume_AkshatPandey.pdf" 
       width="100%"
       height="1200px"
     />
