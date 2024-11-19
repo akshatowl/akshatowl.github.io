@@ -37,11 +37,11 @@ function About() {
         I worked in the Metal Deposition Products team and got to actively contribute to an Endura PVD chamber <br/>
         which is a type of setup that is actively used in the semiconductor manufacturing process. I implemented<br/>
         the real-time control flow of multi-setpoint generator using C++. This was my first time actively working<br/>
-        with compiled binaries and build systems for a functional tool. I feel like a learnt a great deal here, <br/>
-        especially how to write production-level code suited for industrial applications. Being well versed in ROS<br/>
-        also helped me better understand the architecture of the pipeline used by Applied. This helped me a lot with<br/>
-        QA testing my code and knowing how to debug errors effectively. This experience also helped me improve as a <br/>
-        programmer and because of this I'm really looking forward to the next industrial venture that I get myself into!<br/>
+        with compiled binaries and build systems for a functional tool. I learnt a great deal here, especially <br/>
+        writing production-level code suited for industrial applications. Being well versed in ROS also helped<br/>
+        me better understand the architecture of the pipeline used by Applied. This helped me a lot with QA testing<br/>
+        my code and knowing how to debug errors effectively. This experience also helped me improve as a programmer<br/>
+        and because of this I'm really looking forward to the next industrial venture that I get myself into!<br/>
         Safe to say I also enjoyed exploring California thoroughly!</p>
         <h2>My time as a Graduate Researcher</h2>
         <p>During my fall semester in 2023, I was actively working on a research project as a graduate student.<br/>
